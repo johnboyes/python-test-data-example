@@ -7,4 +7,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD [ "python", "./hello_world.py" ]
+CMD [ "python", "./input_request.py" ]
