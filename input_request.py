@@ -3,7 +3,7 @@ from request_date_utils import request_date
 
 class InputRequest:
     def __init__(self):
-        self.start_time = request_date("{:%Y-%m-%d %H:%M}")
+        self.start_time = request_date()
         self.end_time = request_date("{:%Y-%m-%d}", 1)
 
     def __str__(self):
